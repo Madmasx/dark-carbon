@@ -14,6 +14,14 @@ Tema oscuro personalizado para Omarchy (Hyprland). Incluye ajustes de
 El blur del compositor lo habilita `~/.config/hypr/looknfeel.lua`
 (`decoration.blur.enabled = true`, `xray = true`).
 
+## Neovim
+
+`colors.toml` originalmente es casi monocromático (todos los grises), por lo que
+los grupos de sintaxis en Neovim se veían iguales. El tema incluye `neovim.lua`
+con acentos pastel sutiles (estética oscura conservada, pero variables, funciones,
+keywords y strings distinguibles). Solo afecta a este tema: al aplicar un tema con
+`neovim.lua` propio, la plantilla generada no lo sobreescribe.
+
 ## Uso
 
 ```bash
