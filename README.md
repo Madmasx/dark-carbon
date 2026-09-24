@@ -18,8 +18,11 @@ El blur del compositor lo habilita `~/.config/hypr/looknfeel.lua`
 
 `colors.toml` originalmente es casi monocromático (todos los grises), por lo que
 los grupos de sintaxis en Neovim se veían iguales. El tema incluye `neovim.lua`
-con acentos pastel sutiles (estética oscura conservada, pero variables, funciones,
-keywords y strings distinguibles). Solo afecta a este tema: al aplicar un tema con
+con la estética de [oxocarbon.nvim](https://github.com/nyoom-engineering/oxocarbon.nvim):
+predomina el **negro carbón** `#161616` como fondo (escala de grises derivada
+del carbón) y los acentos **IBM Carbon** (`#78a9ff` azul keywords, `#ff7eb6`
+funciones, `#be95ff` strings/constantes, `#82cfff` números, `#ee5396`
+propiedades). Solo afecta a este tema: al aplicar un tema con
 `neovim.lua` propio, la plantilla generada no lo sobreescribe.
 
 ## Uso
