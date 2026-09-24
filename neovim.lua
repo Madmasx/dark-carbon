@@ -6,45 +6,53 @@ return {
     priority = 1000,
     opts = {
       colors = {
-        bg = "#000000",
-        dark_bg = "#000000",
-        darker_bg = "#070707",
-        lighter_bg = "#1a1a1a",
+        bg = "#161616",
+        dark_bg = "#161616",
+        darker_bg = "#131313",
+        lighter_bg = "#2a2a2a",
 
-        fg = "#ffffff",
-        dark_fg = "#4d4d4d",
-        light_fg = "#ececec",
+        fg = "#d5d5d5",
+        dark_fg = "#5c5c5c",
+        light_fg = "#f3f3f3",
         bright_fg = "#ffffff",
-        muted = "#6b6b6b",
+        muted = "#5c5c5c",
 
-        red = "#b06a6a",
-        yellow = "#b8a05f",
-        orange = "#b08458",
-        green = "#7ba07e",
-        cyan = "#6fa5a3",
-        blue = "#7a8fb5",
-        magenta = "#9a7fb5",
+        red = "#ee5396",
+        yellow = "#82cfff",
+        orange = "#ff7eb6",
+        green = "#42be65",
+        cyan = "#08bdba",
+        blue = "#78a9ff",
+        magenta = "#be95ff",
         brown = "#8a6f55",
 
-        bright_red = "#c88383",
-        bright_yellow = "#ccb46f",
-        bright_green = "#8fb593",
-        bright_cyan = "#83b8b6",
-        bright_blue = "#8fa5cc",
-        bright_magenta = "#ad95cc",
+        bright_red = "#ff7eb6",
+        bright_yellow = "#be95ff",
+        bright_green = "#3ddbd9",
+        bright_cyan = "#3ddbd9",
+        bright_blue = "#33b1ff",
+        bright_magenta = "#ff7eb6",
 
-        accent = "#8d8d8d",
+        accent = "#78a9ff",
         cursor = "#ffffff",
-        foreground = "#ffffff",
-        background = "#000000",
-        selection = "#1a1a1a",
-        selection_foreground = "#000000",
-        selection_background = "#1a1a1a",
+        foreground = "#d5d5d5",
+        background = "#161616",
+        selection = "#2a2a2a",
+        selection_foreground = "#161616",
+        selection_background = "#404040",
       },
       on_highlights = function(highlights, c)
-        highlights["@variable"] = { fg = "#d4dce6" }
-        highlights["@variable.parameter"] = { fg = c.cyan }
-        highlights["@property"] = { fg = c.bright_cyan }
+        highlights["@variable"] = { fg = c.fg }
+        highlights["@variable.parameter"] = { fg = c.fg }
+        highlights["@property"] = { fg = c.red }
+        highlights["@keyword"] = { fg = c.blue, style = { italic = true } }
+        highlights["@type"] = { fg = c.blue }
+        highlights["@function"] = { fg = c.orange, bold = true }
+        highlights["@constant"] = { fg = c.magenta }
+        highlights["String"] = { fg = c.magenta }
+        highlights["Number"] = { fg = c.yellow }
+        highlights["Keyword"] = { fg = c.blue, bold = false, italic = true }
+        highlights["Comment"] = { fg = c.muted, italic = true }
       end,
     },
   },
