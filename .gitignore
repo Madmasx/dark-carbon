@@ -1,0 +1,5 @@
+# Video backgrounds are large; keep them out of the repo when re-downloading.
+backgrounds/*.mp4
+backgrounds/*.mkv
+backgrounds/*.webm
+backgrounds/*.part
