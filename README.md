@@ -49,3 +49,7 @@ plantillas — por eso en la máquina activa **no** inicializar git dentro de
 cualquier `omarchy update`, que nunca toca `~/.config/`.
 
 Para subtituir los videos de fondo, copiarlos a `backgrounds/` (ver `.gitignore`).
+
+## Contacto
+
+[GitHub: @Madmasx](https://github.com/Madmasx/madmasx)
