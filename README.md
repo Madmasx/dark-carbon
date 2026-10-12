@@ -52,6 +52,6 @@ Para subtituir los videos de fondo, copiarlos a `backgrounds/` (ver `.gitignore`
 
 ## `$ ls ~/contacto`
 
-[![X](https://img.shields.io/badge/X-@madmasx-000000?style=for-the-badge&logo=x&logoColor=BE95FF&labelColor=0d1117&color=BE95FF)](https://x.com/madmasx)
-[![GitHub](https://img.shields.io/badge/GitHub-madmasx-000000?style=for-the-badge&logo=github&logoColor=BE95FF&labelColor=0d1117&color=BE95FF)](https://github.com/madmasx)
-[![Buy Me a Coffee](https://img.shields.io/badge/Buy_Me_a_Coffee-apóyame-000000?style=for-the-badge&logo=buymeacoffee&logoColor=BE95FF&labelColor=0d1117&color=BE95FF)](https://buymeacoffee.com/madmasx)
+[![X](https://img.shields.io/badge/X-@madmasx-000000?style=for-the-badge&logo=x&logoColor=1E052E&labelColor=0d1117&color=1E052E)](https://x.com/madmasx)
+[![GitHub](https://img.shields.io/badge/GitHub-madmasx-000000?style=for-the-badge&logo=github&logoColor=1E052E&labelColor=0d1117&color=1E052E)](https://github.com/madmasx)
+[![Buy Me a Coffee](https://img.shields.io/badge/Buy_Me_a_Coffee-apóyame-000000?style=for-the-badge&logo=buymeacoffee&logoColor=1E052E&labelColor=0d1117&color=1E052E)](https://buymeacoffee.com/madmasx)
