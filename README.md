@@ -50,7 +50,7 @@ cualquier `omarchy update`, que nunca toca `~/.config/`.
 
 Para subtituir los videos de fondo, copiarlos a `backgrounds/` (ver `.gitignore`).
 
-## Contacto
+## `$ ls ~/contacto`
 
 [![X](https://img.shields.io/badge/X-@madmasx-000000?style=for-the-badge&logo=x&logoColor=00FF9C&labelColor=0d1117&color=00FF9C)](https://x.com/madmasx)
 [![GitHub](https://img.shields.io/badge/GitHub-madmasx-000000?style=for-the-badge&logo=github&logoColor=00FF9C&labelColor=0d1117&color=00FF9C)](https://github.com/madmasx)
