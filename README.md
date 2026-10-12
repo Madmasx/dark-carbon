@@ -3,6 +3,8 @@
 Tema oscuro personalizado para Omarchy (Hyprland). Incluye ajustes de
 **transparencia de terminal con difuminado** (blur de fondo).
 
+![Vista previa del tema](screenshot.png)
+
 ## Ajustes incluidos
 
 | Terminal  | Config | Transparencia | Difuminado |
