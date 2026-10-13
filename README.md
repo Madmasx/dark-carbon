@@ -34,7 +34,7 @@ propiedades). Solo afecta a este tema: al aplicar un tema con
 omarchy theme set "Dark Carbon"
 
 # Instalar desde un repo
-omarchy theme install <url-de-este-repo>
+omarchy theme install https://github.com/Madmasx/dark-carbon
 ```
 
 ## Importante (transparencia + updates)
