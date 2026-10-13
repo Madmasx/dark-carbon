@@ -1,4 +1,4 @@
-# dark-madmasx (tema Omarchy)
+# dark-carbon (tema Omarchy)
 
 Tema oscuro personalizado para Omarchy (Hyprland). Incluye ajustes de
 **transparencia de terminal con difuminado** (blur de fondo).
@@ -31,7 +31,7 @@ propiedades). Solo afecta a este tema: al aplicar un tema con
 
 ```bash
 # Aplicar el tema
-omarchy theme set dark-madmasx
+omarchy theme set "Dark Carbon"
 
 # Instalar desde un repo
 omarchy theme install <url-de-este-repo>
@@ -44,7 +44,7 @@ el tema es "escrito por el usuario"** (carpeta `~/.config/omarchy/themes/`
 sin `.git`). Si se instala vía `omarchy theme install`, Omarchy descarta
 `ghostty.conf` / `kitty.conf` / `alacritty.toml` del tema y los regenera desde
 plantillas — por eso en la máquina activa **no** inicializar git dentro de
-`~/.config/omarchy/themes/dark-madmasx/`. Mantener los archivos de terminal
+`~/.config/omarchy/themes/dark-carbon/`. Mantener los archivos de terminal
 (modificados con transparencia) en el tema garantiza que sobrevivan a
 cualquier `omarchy update`, que nunca toca `~/.config/`.
 
